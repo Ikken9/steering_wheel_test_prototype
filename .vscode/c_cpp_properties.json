@@ -1,0 +1,96 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/include",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/src",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRotaryEncoder",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHFastIO",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRGBLedsNeoPixelFastLed",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRGBLedsBase",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHGamepadAxis",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/Joystick",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/DynamicHID",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/PluggableUSB",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/USBAPI",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHCustomProtocol",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHCommands",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHButtonMatrix",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHDebouncer",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/FlowSerialRead",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/ArqSerial",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/RingBuffer",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/.pio/libdeps/micro/FastLED/src",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/variants/micro",
+                "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/AdafruitNeoPixel",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/include",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/src",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRotaryEncoder",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHFastIO",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRGBLedsNeoPixelFastLed",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHRGBLedsBase",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHGamepadAxis",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/Joystick",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/DynamicHID",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/PluggableUSB",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/USBAPI",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHCustomProtocol",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHCommands",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHButtonMatrix",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/SHDebouncer",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/FlowSerialRead",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/ArqSerial",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/RingBuffer",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/.pio/libdeps/micro/FastLED/src",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/variants/micro",
+                    "C:/Users/Ikken/Documents/GitHub/steeringwheel/lib/AdafruitNeoPixel",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/Ikken/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60104",
+                "ARDUINO_AVR_MICRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x8037",
+                "USB_PRODUCT=\"Arduino Micro\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/Ikken/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
